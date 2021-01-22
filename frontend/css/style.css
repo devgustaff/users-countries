@@ -1,0 +1,42 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+#spinner span {
+  margin-left: 16px;
+  font-size: 1.3rem;
+}
+
+.bordered {
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.flag {
+  width: 30px;
+  height: 15px;
+}
